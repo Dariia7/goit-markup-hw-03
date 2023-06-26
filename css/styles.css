@@ -195,7 +195,8 @@
             max-width: 496px;
          }
         .section-one{
-            margin-bottom: 120px;
+            padding-top: 120px;
+            padding-bottom: 120px;
         }
         .section-two{
             margin-bottom: 120px;
