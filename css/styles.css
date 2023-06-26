@@ -76,6 +76,9 @@
     color:var(--primary-white-color);
     background-color:var(--brand-color);
     text-align: center;
+    margin-top: 372px;
+    margin-bottom: 204px;
+   
 }
 .button{
     font-family: "Roboto",sans-serif;
@@ -85,7 +88,8 @@
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color:var(--non-primary-blue-color);
-    color:var(--primary-white-color)
+    color:var(--primary-white-color);
+   
     
 }
 .subtitle{
@@ -159,3 +163,34 @@
             color:var(--primary-white-color);
             background-color:var(--primary-blue-color);
         }
+        h1,h2, p,ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        }
+        img{
+            display: block;
+        }
+        header{
+            padding-left: 15px;
+            padding-bottom: 15px;
+        }
+        
+        .container{
+            width: 1158px;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+            outline: 2px solid darkred;
+        
+        }
+        .hero-headline{
+            
+        }
+        .section-one{
+            margin-bottom: 120px;
+        }
+        .section-two{
+            margin-bottom: 120px;
+        }
+        
