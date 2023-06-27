@@ -75,6 +75,7 @@
     background-color:var(--brand-color);
     padding-top: 188px;
     padding-bottom: 188px;
+    
    
 }
 .button{
@@ -201,10 +202,11 @@
             letter-spacing: 0.02em;
             color: var(--primary-white-color);
             max-width: 496px;
-            margin: left auto;
-            margin: right auto;
+            margin: 0 auto;
             margin-bottom: 48px;
             text-align: center;
+            
+            
          }
         .section-one{
             padding-top: 120px;
@@ -318,7 +320,7 @@
             .header{
                 border-bottom: 1px solid #e7e9fc;
             }
-            .h3-deco{
+            .h-three-deco{
                 margin-bottom: 8px;
             }
             
