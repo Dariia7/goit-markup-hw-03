@@ -68,15 +68,10 @@
     letter-spacing: 0.02em;
     color:var(--primary-slate-color);
     list-style-type: none;
+    margin-left: auto;
 }
 .hero{
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color:var(--primary-white-color);
     background-color:var(--brand-color);
-    text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
    
@@ -106,6 +101,7 @@
     letter-spacing: 0.02em;
     list-style-type: none;
     color:var(--brand-color);
+    
     }
     .description{
         font-weight: 400;
@@ -122,6 +118,7 @@
         text-align: center;
         text-transform: capitalize;
         color: var(--brand-color);
+        margin-bottom: 72px;
         }
     .img-list{
         list-style-type: none;
@@ -130,6 +127,7 @@
         font-family: "Raleway",sans-serif;
         background-color:var(--brand-color);
         color:var(--non-primary-white-color);
+        padding: 100px 0;
     }
     .studio-light{
         color:var(--background-color);
@@ -143,6 +141,9 @@
       cursor: pointer;
       background-color:var(--background-color);
       color:var(--non-primary-blue-color);
+      padding: 12px 24px;
+      border: 1px solid #e7e9fc;
+      border-radius: 4px;
       }
         ul {
             list-style: none;
@@ -155,6 +156,7 @@
         .filter-btn:focus{
             color:var(--primary-white-color);
             background-color: var(--primary-blue-color);
+            border: 1px solid transparent;
         }
        
         .link:hover,
@@ -192,16 +194,27 @@
         
         }
         .hero-headline{
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 1.07;
+            letter-spacing: 0.02em;
+            color: var(--primary-white-color);
             max-width: 496px;
+            margin: left auto;
+            margin: right auto;
+            margin-bottom: 48px;
+            text-align: center;
          }
         .section-one{
             padding-top: 120px;
             padding-bottom: 120px;
         }
         .section-two{
-            margin-bottom: 120px;
+            padding-bottom: 120px;
         }
         .header-deco{
+            display: flex;
+            align-items: center;
             border-bottom: 1px solid #e7e9fc;
         }
         .navigation{
@@ -219,3 +232,81 @@
             display: flex;
             gap: 40px;
         }
+       .visually-hidden{
+        width: 1px;
+        height: 1px;
+        border: 0;
+        padding: 0;
+        margin-bottom: 8px;
+       }
+        .subtitle-deco{
+            display: flex;
+            gap: 24px;
+         }
+         .li-item{
+            width: calc((100% - 72px) / 4)
+         }
+         .section-two-deco{
+            display: flex;
+            gap: 24px;
+         }
+         .li-item-two{
+            width: calc((100% - 48px) / 3)
+         }
+         .section-three{
+            padding: 120px 0px;
+         }
+         .section-three-deco{
+            display: flex;
+            gap: 24px;
+         }
+         .li-item-tree{
+            width: calc((100% - 72px) / 4);
+            border-radius: 0px 0px 4px 4px;
+         }
+         .name-deco{
+            padding-top: 32px;
+            padding-bottom: 32px;
+            padding-left: 16px;
+            padding-right: 16px
+         }
+         .name-deco-two{
+            text-align: center;
+            margin-bottom: 8px;
+         }
+         .p-item{
+            text-align: center;
+         }
+         .footer-link{
+            display:inline-block;
+            margin-bottom: 16px;        
+        }
+        .section-portfolio{
+            padding-top: 96px;
+            padding-bottom: 120px;
+        }
+        .list-btn-deco{
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 72px;
+        }
+        .list-port{
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 24px;
+            row-gap: 48px;
+        }
+        .li-item-port{
+            width: calc((100% - 48px) / 3);
+        }
+        .description-deco{
+            padding: 32px 16px;
+            border: 1px solid #e7e9fc;
+            border-top: none;
+        }
+
+            .h2-deco-port{
+                margin-bottom: 8px;
+            }
+               
