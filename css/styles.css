@@ -30,6 +30,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--background-color);
+    max-width: 264px;
 }
 
 .body {
@@ -182,10 +183,7 @@
         img{
             display: block;
         }
-        header{
-            padding-left: 15px;
-            padding-bottom: 15px;
-        }
+        
         
         .container{
             width: 1158px;
